@@ -1,104 +1,136 @@
-#PROYECTO DE PROTAFOLIOS
+# PROYECTO DE PORTAFOLIOS
 
-Analisis de peticiones y ajustes para la Pagina web
+## Análisis de Peticiones y Ajustes para la Página Web
 
-En lo ideal se pensaba utilizar React en el sentido de avanze y logro pero seria demasiado dificil por lo que preferiblemente no se usara en esta ocasion, en vez se usara exclusivamente HTML y CSS
+En un principio, se pensó utilizar React para avanzar y lograr mejores resultados, pero sería demasiado complicado, por lo que preferiblemente no se usará en esta ocasión. En vez de React, se utilizará exclusivamente HTML y CSS.
 
-Para este caso se diseñara lo siguiente queriendolo especificar en palabras.
+### Diseño
 
-Presentacion de Perfil: Mucho gusto, Jorge Osorio.
-Desarollador de Videojuegos, estudiante de ingenieria de sistemas e infomatica, Desarrollador Junior.
+#### Presentación de Perfil
+Mucho gusto, Jorge Osorio.  
+Desarrollador de Videojuegos, estudiante de Ingeniería de Sistemas e Informática, Desarrollador Junior.
 
-Graduado de un seminario, estudiante de la UPB seccional bucaramanga, interesado en el desarollo de videojuegos desde joven, he querido plasmar mis ideas mas alla de simplemente hacer un codigo ya que incluso, los videojuegos como un nuevo arte dentro de las disciplinas.
+Graduado de un seminario, estudiante de la UPB seccional Bucaramanga, interesado en el desarrollo de videojuegos desde joven. He querido plasmar mis ideas más allá de simplemente hacer código, ya que considero los videojuegos como una nueva forma de arte dentro de las disciplinas.
 
-Soy una persona creativa, alguien que piensa fuera de las normativas o leyes, escritor de medio tiempo y tambien lo que algunos consideran un filosofo interesado en entender las conductas humanas
+Soy una persona creativa, alguien que piensa fuera de las normativas o leyes, escritor de medio tiempo y también lo que algunos consideran un filósofo, interesado en entender las conductas humanas.
 
-Objetivos profesionales
+### Objetivos Profesionales
 
-Objetuvos a corto plazo:
+#### Objetivos a Corto Plazo
+Uno de mis objetivos a corto plazo es buscar una compañía centrada en el desarrollo de videojuegos y vender los inicios de mis ideas, entre ellas *Symphony of Justice*, y a partir de allí, trabajar completamente enfocado en ello.
 
-Entre mis objetivos cercanos es buscar una compañia centrada en el desarollo de videojuegos y vender los inicios de mis ideas, entre ellas Symphony of Justice y de alli trabajar completamente enfocado en ello.
+#### Objetivos a Mediano Plazo
+Deseo hacerme de un nombre o un título dentro de la industria, seguir avanzando y creando más conceptos e ideas que puedan aportar a la industria, tanto mecánicamente como en fundamento, centrándome en temas que usualmente no son tratados.
 
-Objetuvos a medio plazo:
+De allí, quiero generar respeto por mis ideales y ampliar la visión de las personas, aunque sea de forma mínima. Mi objetivo es provocar preguntas en quienes jueguen mis creaciones, intentando sembrar una pizca de duda en el interior de todos.
 
-Deseando hacerme de un nombre o un titulo dentro de la industria seguir avanzando y creando mas conceptos e ideas los cuales puedan aportar a la industria, tanto mecanicamente, como en fundamento, centrandome en temas que usualmente no son tratados.
+#### Objetivos a Largo Plazo
+Mi idea, después de tener un gran renombre y convertirme en una persona respetada, es crear una fundación y una compañía. La fundación estará centrada en ayudar a chicos con problemas psicológicos, especialmente aquellos que sufren de dudas sobre su futuro, depresión, ansiedad y otros temas que, en muchas ocasiones, no reciben la atención que merecen. También quiero ayudar a jóvenes que no pueden estudiar por problemas económicos.
 
-De alli generar un respeto entre los ideales y ampliar la vision, aunque sea de forma minima haga preguntas dentro de las personas que jueguen aquellas creaciones mias, intentando dar una pizca de duda en el interior de todos
+La compañía que deseo crear estará enfocada en el desarrollo de videojuegos, con el objetivo de apoyar a estudios indie o incluso a personas que desean dar vida a sus proyectos, pero que, por falta de orientación, dificultades económicas y otras razones, no tienen la oportunidad de crear y dar luz a sus invenciones.
 
-Objetuvos a largo plazo:
+### Misión, Visión y Valores
 
-Mi idea despues de tener un gran renombre y volverme una persona respetada es hacer una fundacion y una compañia, la fundacion esta centrada en chico con problemas psicologico centrado en la duda de su futuro, depresion, anciedad y demas temas los cuales en varias oportunidad no se les da el valor que merecen. al igual que muhcos jovenes que no pueden tener la oportunidad de estudiar por problemas economicos.
+#### Misión
+Ser un desarrollador de videojuegos enfocado en innovar en la industria, destacando y potenciando el talento único de mi nación. Mi objetivo es cerrar la brecha que limita la publicación de ideas originales, facilitando la entrada de nuevas propuestas en el mercado global.
 
-La compañia que deseo crear se enfoca mas en el desarrollo de videojuegos queriendo apoyar a estudios indie o incluso personas las cuales desean darle vida a sus proyectos, pero sea por orientacion, dificultades economicas y demas no pueden tener la oportunidad de crear y dar luz a sus invenciones.
+#### Visión
+Para 2030, seré un referente en la industria de los videojuegos, no solo como desarrollador, sino como una empresa clave en la distribución de ideas, conceptos, y prototipos innovadores. Mi propósito es ofrecer a las compañías la oportunidad de adquirir y desarrollar estas propuestas únicas.
 
-Mision, Vision y valores
+#### Valores
+- Innovación
+- Creatividad
+- Compromiso
 
-Misión: Define tu propósito profesional. Esta es una declaración que refleja por qué haces lo que haces y qué impacto quieres tener en tu entorno.
+### Certificaciones
 
-Visión: Describe tu aspiración a largo plazo. Aquí puedes detallar cómo imaginas tu carrera y cómo deseas influir en tu industria o comunidad.
+- Curso de Creación de Videojuegos - UPB 2021
 
-Valores: Lista los valores que son importantes para ti y que guían tu toma de decisiones profesionales (e.g., integridad, innovación, colaboración, responsabilidad).
+### Servicios
 
-Certificaciones
+Los servicios que proveo están enfocados en documentación, conceptualización, proyectos y demás áreas relacionadas con la industria de los videojuegos, análisis y diseño de requerimientos, enfoque de actividades y desarrollo de lógica de videojuegos.
 
-Cur. Creacion de Videojuegos hecho por la UPB 2021
+### Proyectos
 
-Servicios:
+- Exorcista judicii
+- Hijutsu No Shitsuji
+- Último Suspiro de los No Muertos
+- Symphonia Iustitiae
+- Gastronomía Corrupta
 
-Los servicios que proveo son enfocado en Documentacion, conceptualizacion, proyectos y demas enfocado en la industria de los videojuegos, analisis y diseño de requerimientos, enfoque de actividades y desarollador de logica de videojuegos.
+### Datos de Contacto
 
-Proyectos
+- **Correo Personal:** [tu_correo@ejemplo.com](mailto:tu_correo@ejemplo.com)
+- **Correo Institucional:** [tu_correo_institucional@ejemplo.com](mailto:tu_correo_institucional@ejemplo.com)
+- **Número de Teléfono:** +57 123 4567890
+- **WhatsApp:** +57 123 4567890
+- **LinkedIn:** [linkedin.com/in/jorgeosorio](https://linkedin.com/in/jorgeosorio)
+- **GitHub:** [github.com/jorgeosorio](https://github.com/jorgeosorio)
 
-Exorcista judicii
-Hijutsu No Shitsuji
-Ultimo suspiro de los No muertos
-Symphonia Iustitiae
-Gastronomia Corrupta
+# Descripción y Justificación del Proyecto de Portafolio
 
-Datos de contacto:
+## Presentación de Perfil
+**Descripción:**  
+La presentación del perfil tendrá un toque sombrío y gamer, con un diseño en Pixel Art que presente diferentes conceptos, al igual que un perfil más personal.
 
-Correo personal
-Correo Institucional
-Numero de telefono
-Whatsapp
-Linkedin
-Git
+**Justificación:**  
+La estética sombría en Pixel Art refleja tanto mi pasión por los videojuegos como mi estilo personal. Referencias como [David Shaver](https://www.davidshaver.net/index.html) y [Hugo](https://hugo.fyi/#) inspiran este enfoque, pero con la diferencia de no incluir videos ni presentaciones. Se buscará una manera de presentar estos conceptos, posiblemente a través de enlaces o alternativas visuales similares.
 
-Ahora teniendo en cuenta todos los puntos se va a dar una descripcion de lo que desea dentro de cada uno de ellos y su justificacion.
+## Objetivos Profesionales
+**Descripción:**  
+Los objetivos profesionales se presentarán con un enfoque en el ámbito gamer, incluyendo aspectos como ingeniería, conceptualización y planteamiento de requerimientos. Se utilizarán componentes (como React) o hipervínculos para conectar los proyectos de manera más profunda. También se incluirá un Git general que enlace todos los proyectos, si es posible.
 
-Presentacion de Perfil: En este caso se buscara algo con un toque sombrio y gamer, lo ideal seria un diseño Pixel art presentando diferentes Conceptos, al igual que un perfil algo mas personal.
+**Justificación:**  
+Este enfoque permite destacar no solo mis metas, sino también la conexión entre diferentes áreas de mi trabajo. La idea es profundizar en cada proyecto, mostrando cómo se interrelacionan y destacando mi capacidad para manejar conceptos complejos y de gran escala.
 
-https://www.davidshaver.net/index.html
+## Misión, Visión y Valores
+**Descripción:**  
+La misión, visión y valores se explicarán mediante imágenes y animaciones, con una estética más relajada.
 
-https://hugo.fyi/#
+**Justificación:**  
+Usar imágenes y animaciones permite comunicar estos conceptos de manera más efectiva y visualmente atractiva, lo que complementa la estética general del portafolio.
 
-Referencia de lo que se busca pero limitado al no tener Videos ni presentaciones, por lo cual se buscara de algun Link o algo similar que pueda presentar estos conceptos
+## Certificaciones
+**Descripción:**  
+Se mostrará la única certificación actual: el curso de Introducción al Desarrollo de Videojuegos de la UPB 2021. Se incluirá el póster del curso, si está disponible.
 
-Objetivos profesionales: En este caso se habla mas de Ambito Gamer, centrado en cosas externos como pueden ser, la ingenieria, conceptualizacion, planteamiento de requerimientos, etc.
-Tambein sacando adelante las ideas o conceptos de menor escala, dandoles como un Componente (Por eso, React) que explique mas a profundidad lo que se quiere, en su defecnto se buscara hacer conexion de hipervinculos entre los mismos proyectos, un git general y uno que se conecte entre ellos(Ver si es posible).
+**Justificación:**  
+Mostrar esta certificación refuerza mi perfil académico y profesional, destacando mi formación en desarrollo de videojuegos.
 
-Mision, Vision y valores, Esto explicado con imagenes y animaciones al igual que una estetica mas relagada
+## Servicios
+**Descripción:**  
+Se detallarán los servicios que ofrezco y mis capacidades en el ámbito profesional, profundizando en los proyectos que he desarrollado.
 
-Certificaciones: La unica que se posee que es de introduccion a desarrollo de videojuegos (Buscar el poster)
+**Justificación:**  
+Es importante destacar mis habilidades y cómo puedo aplicarlas en proyectos futuros. Esto no solo atrae a posibles colaboradores o empleadores, sino que también muestra mi versatilidad en el desarrollo de videojuegos.
 
-Servicios: Explicar mis servicios y mis capacidades en el ambito profesional y de la misma manera profundizar un poco mas en todos estos proyectos.
+## Proyectos
+**Descripción:**  
+Los proyectos se presentarán resaltando aquellos realizados en el campus universitario. Se mostrará uno de los proyectos desarrollados en la universidad, con un enfoque simple pero efectivo. Además, se describirán los conceptos de otros proyectos, presentándolos con una estética que atraiga al espectador.
 
-Proyectos: Estos se trataran resaltando los de campus y se va a mostrar aquel que se hizo en la universidad, aunque es preferible darle un vistazo simple, por demas hablar desde los conceptos y llevarlos con una estetica que atraiga.
+**Proyectos incluidos:**
+- Exorcista judicii
+- Hijutsu No Shitsuji
+- Último Suspiro de los No Muertos
+- Symphonia Iustitiae
+- Gastronomía Corrupta
 
-Exorcista judicii
-Hijutsu No Shitsuji
-Ultimo suspiro de los No muertos
-Symphonia Iustitiae
-Gastronomia Corrupta
+**Justificación:**  
+Mostrar estos proyectos destaca mi potencial y creatividad, dejando claro que lo único que me limita es la falta de un equipo de apoyo para desarrollar estas grandes ideas.
 
-Se quiere vender mas la idea de que tengo gran potencial y lo unico que me limita es el equipo que pueda apoyar las grandes ideas que pueden llegar a presentarse como proyectos textuales.
+## Datos de Contacto
+**Descripción:**  
+Se diseñarán los métodos de contacto inspirados en la presentación de [Pola](enlace_pola). Además, se buscará llenar mi Instagram con información sobre personajes y creaciones.
 
-Datos de contacto
-En este caso ese basa en buscar hacer lo mismo que hizo pola, en el sentido de buscar metodos de contacto, diseño y presentacion, intentando atraer a las personas por como se puede hacer, al igual que buscar hacer que mi instagram llenarlo de info de personajes y creaciones.
+**Justificación:**  
+El diseño atractivo y profesional de los métodos de contacto es crucial para atraer la atención de posibles colaboradores y empleadores. Además, un Instagram bien curado con contenido relevante fortalecerá mi presencia online y la percepción de mi trabajo.
 
-Mas adelante se especificara como se hara cada uno de ellos teniendo que cada Proyecto tenga un diseño que atraiga por su idea.
+## Estética General del Portafolio
+**Descripción:**  
+El portafolio tendrá una estética oscura pero no aterradora, enfocada en ideas de sombras. La idea es que sea inquietante pero tan atractivo que el espectador no pueda dejar de explorarlo.
 
-El portafolio debe ser oscuro pero no aterrador enfocado en las ideas de las sombras y lo que se quiere buscar es dar miendo que aun asuste no pudeas dejar de verlo.
+**Justificación:**  
+Este enfoque visual se alinea con la temática de mis proyectos y mi estilo personal, creando una experiencia inmersiva y memorable para quienes visiten mi portafolio.
 
 ```<!DOCTYPE html>
 <html>
