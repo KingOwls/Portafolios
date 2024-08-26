@@ -50,22 +50,38 @@ Para 2030, seré un referente en la industria de los videojuegos, no solo como d
 
 Los servicios que proveo están enfocados en documentación, conceptualización, proyectos y demás áreas relacionadas con la industria de los videojuegos, análisis y diseño de requerimientos, enfoque de actividades y desarrollo de lógica de videojuegos.
 
-### Proyectos
+## Proyectos
 
-- Exorcista judicii
-- Hijutsu No Shitsuji
-- Último Suspiro de los No Muertos
-- Symphonia Iustitiae
-- Gastronomía Corrupta
+### Proyectos Efectuados
+**Descripción:**  
+Estos son los proyectos que he desarrollado y completado, disponibles en GitHub para su revisión.
+
+- [Proyecto Airtport](https://github.com/KingOwls/airtport)
+- [BD School](https://github.com/KingOwls/BD_School)
+- [Proyecto JavaScript](https://github.com/David-Albarracin/PROYECTO-JAVASCRIPT)
+- [Funcionamiento de Memoria 2022](https://github.com/KingOwls/FuncionamientoDeMemoria2022)
+
+**Justificación:**  
+Estos proyectos muestran mi capacidad para llevar ideas desde la conceptualización hasta su implementación práctica, destacando mi habilidad técnica y experiencia en programación.
+
+### Proyectos de Conceptualización de Videojuegos
+**Descripción:**  
+Estos son conceptos de videojuegos en los que he trabajado, reflejando mi creatividad y visión para el diseño de juegos.
+
+- **Exorcista judicii**
+- **Hijutsu No Shitsuji**
+- **Último Suspiro de los No Muertos**
+- **Symphonia Iustitiae**
+- **Gastronomía Corrupta**
 
 ### Datos de Contacto
 
-- **Correo Personal:** [tu_correo@ejemplo.com](mailto:tu_correo@ejemplo.com)
-- **Correo Institucional:** [tu_correo_institucional@ejemplo.com](mailto:tu_correo_institucional@ejemplo.com)
-- **Número de Teléfono:** +57 123 4567890
-- **WhatsApp:** +57 123 4567890
-- **LinkedIn:** [linkedin.com/in/jorgeosorio](https://linkedin.com/in/jorgeosorio)
-- **GitHub:** [github.com/jorgeosorio](https://github.com/jorgeosorio)
+- **Correo Personal:** [kingshadowowls@gmail.com](mailto:kingshadowowls@gmail.com)
+- **Correo Institucional:** [jorge.osorio.2022@upb.edu.co](mailto:jorge.osorio.2022@upb.edu.co)
+- **Número de Teléfono:** +57 316 2284286
+- **WhatsApp:** +57 316 2284286
+- **LinkedIn:** [linkedin.com/in/jorge-luis-osorio-808823318](https://www.linkedin.com/in/jorge-luis-osorio-808823318/)
+- **GitHub:** [github.com/KingOwls](https://github.com/KingOwls)
 
 # Descripción y Justificación del Proyecto de Portafolio
 
@@ -120,7 +136,8 @@ Mostrar estos proyectos destaca mi potencial y creatividad, dejando claro que lo
 
 ## Datos de Contacto
 **Descripción:**  
-Se diseñarán los métodos de contacto inspirados en la presentación de [Pola](enlace_pola). Además, se buscará llenar mi Instagram con información sobre personajes y creaciones.
+Se diseñarán los métodos de contacto inspirados en la presentación de [Pola].
+ Además, se buscará llenar mi Instagram con información sobre personajes y creaciones.
 
 **Justificación:**  
 El diseño atractivo y profesional de los métodos de contacto es crucial para atraer la atención de posibles colaboradores y empleadores. Además, un Instagram bien curado con contenido relevante fortalecerá mi presencia online y la percepción de mi trabajo.
@@ -215,4 +232,5 @@ titles.forEach(title => {
 });
 </script>
 </body>
-</html>```
+</html>
+```
