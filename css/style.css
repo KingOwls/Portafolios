@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
 .imagen-grande {
     width: 500px;   
     height: auto;   
@@ -34,4 +39,25 @@ section {
   i:hover {
     color: #007bff; /* change the color to blue on mouse hover */
     transform: scale(1.2);
+  }
+
+  .foto-perfil {
+    width: 100px; /* ajusta el ancho de la imagen */
+    height: 100px; /* ajusta el alto de la imagen */
+    border-radius: 50%; /* hace que la imagen sea circular */
+    overflow: hidden; /* oculta cualquier parte de la imagen que sobrepase el contenedor */
+    margin: 20px auto; /* ajusta el margen y la alineación de la imagen */
+  }
+  
+  .foto-perfil img {
+    width: 100%; /* ajusta el ancho de la imagen */
+    height: 100%; /* ajusta el alto de la imagen */
+    object-fit: cover; /* ajusta la imagen para que se adapte al contenedor */
+  }
+  
+  #perfil p {
+    text-align: justify; /* justifica el texto */
+    font-size: 16px; /* ajusta el tamaño de la fuente */
+    line-height: 1.5; /* ajusta el espaciado entre líneas */
+    margin-bottom: 20px; /* ajusta el margen inferior de cada párrafo */
   }
