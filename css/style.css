@@ -26,3 +26,12 @@ section {
     color: #666;
     margin-bottom: 20px;
   }
+  i {
+    color: #000; /* set the default color to black */
+    transition: color 0.3s; /* add a transition effect to the color */
+  }
+  
+  i:hover {
+    color: #007bff; /* change the color to blue on mouse hover */
+    transform: scale(1.2);
+  }

@@ -52,6 +52,8 @@ Los servicios que proveo están enfocados en documentación, conceptualización,
 
 ## Proyectos
 
+HTML, CSS, Java, Python, Mysql, Git, C++, SprintBoot.
+
 ### Proyectos Efectuados
 **Descripción:**  
 Estos son los proyectos que he desarrollado y completado, disponibles en GitHub para su revisión.
@@ -125,6 +127,7 @@ Es importante destacar mis habilidades y cómo puedo aplicarlas en proyectos fut
 Los proyectos se presentarán resaltando aquellos realizados en el campus universitario. Se mostrará uno de los proyectos desarrollados en la universidad, con un enfoque simple pero efectivo. Además, se describirán los conceptos de otros proyectos, presentándolos con una estética que atraiga al espectador.
 
 **Proyectos incluidos:**
+
 - Exorcista judicii
 - Hijutsu No Shitsuji
 - Último Suspiro de los No Muertos
@@ -135,6 +138,7 @@ Los proyectos se presentarán resaltando aquellos realizados en el campus univer
 Mostrar estos proyectos destaca mi potencial y creatividad, dejando claro que lo único que me limita es la falta de un equipo de apoyo para desarrollar estas grandes ideas.
 
 ## Datos de Contacto
+
 **Descripción:**  
 Se diseñarán los métodos de contacto inspirados en la presentación de [Pola].
  Además, se buscará llenar mi Instagram con información sobre personajes y creaciones.
@@ -143,7 +147,9 @@ Se diseñarán los métodos de contacto inspirados en la presentación de [Pola]
 El diseño atractivo y profesional de los métodos de contacto es crucial para atraer la atención de posibles colaboradores y empleadores. Además, un Instagram bien curado con contenido relevante fortalecerá mi presencia online y la percepción de mi trabajo.
 
 ## Estética General del Portafolio
+
 **Descripción:**  
+
 El portafolio tendrá una estética oscura pero no aterradora, enfocada en ideas de sombras. La idea es que sea inquietante pero tan atractivo que el espectador no pueda dejar de explorarlo.
 
 **Justificación:**  
