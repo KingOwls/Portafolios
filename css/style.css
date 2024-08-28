@@ -1,7 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #1d1919; /* cambia el fondo a un color oscuro */
+  font-family: 'Open Sans', sans-serif; /* cambia la fuente a Open Sans */
+  color: #fff; /* cambia el color del texto a blanco */
+  
 }
 .imagen-grande {
     width: 500px;   
@@ -15,7 +18,7 @@ body {
 section {
     padding: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #1d1919;
   }
   
   /* Estilos para los títulos */
@@ -40,13 +43,27 @@ section {
     color: #007bff; /* change the color to blue on mouse hover */
     transform: scale(1.2);
   }
-
+  a{
+    text-decoration: none;
+    color:#fff;
+  }
+  .perfil-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .perfil-info {
+    flex: 1;
+  }
+  
   .foto-perfil {
-    width: 100px; /* ajusta el ancho de la imagen */
-    height: 100px; /* ajusta el alto de la imagen */
-    border-radius: 50%; /* hace que la imagen sea circular */
+    max-width: 500px; /* ajusta el ancho máximo de la imagen */
+    max-height: 500px; /* ajusta el alto máximo de la imagen */
+    border-radius: 80%; /* hace que la imagen sea circular */
     overflow: hidden; /* oculta cualquier parte de la imagen que sobrepase el contenedor */
-    margin: 20px auto; /* ajusta el margen y la alineación de la imagen */
+    margin-left: 20px; /* ajusta el margen izquierdo de la imagen */
   }
   
   .foto-perfil img {
@@ -54,10 +71,305 @@ section {
     height: 100%; /* ajusta el alto de la imagen */
     object-fit: cover; /* ajusta la imagen para que se adapte al contenedor */
   }
-  
   #perfil p {
     text-align: justify; /* justifica el texto */
-    font-size: 16px; /* ajusta el tamaño de la fuente */
+    font-size: 64px; /* ajusta el tamaño de la fuente */
     line-height: 1.5; /* ajusta el espaciado entre líneas */
     margin-bottom: 20px; /* ajusta el margen inferior de cada párrafo */
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .perfil-info {
+    font-size: 20px; /* Aumentamos el tamaño de la fuente */
+    font-weight: bold; /* Hacemos que la fuente sea más gruesa */
+    color: #333; /* Ajustamos el color del texto */
+    margin-bottom: 10px; /* Ajustamos el margen inferior del texto */
+    text-align: center; /* Centramos el texto horizontalmente */
+  }
+  
+  .perfil-info p:first-child {
+    font-size: 60px; /* Aumentamos el tamaño de la fuente del nombre */
+    font-weight: bold; /* Hacemos que la fuente sea más gruesa */
+    color: #00698f; /* Ajustamos el color del nombre */
+    text-decoration: underline; /* Agregamos una línea debajo del nombre */
+    animation: color-change 12s infinite; /* Agregamos una animación que cambia el color del nombre cada 5 segundos */
+    margin-bottom: 40px; /* Ajustamos el margen inferior del nombre para separarlo del segundo párrafo */
+    text-align: center; /* Centramos el nombre horizontalmente */
+  }
+  
+  .perfil-info p:last-child {
+    font-size: 60px; /* Aumentamos el tamaño de la fuente de la descripción */
+    color: #666; /* Ajustamos el color de la descripción */
+  }
+  
+  @keyframes color-change {
+    0% {
+      color: #00698f;
+    }
+    10% {
+      color: #0099cc;
+    }
+    20% {
+      color: #00ffff;
+    }
+    30% {
+      color: #0099cc;
+    }
+    40% {
+      color: #00ff00;
+    }
+    50% {
+      color: #ffff00;
+    }
+    60% {
+      color: #682091;
+    }
+    70% {
+      color: #0099cc;
+    }
+    80% {
+      color: #00ffff;
+    }
+    90% {
+      color: #0099cc;
+    }
+    100% {
+      color: #00698f;
+    }
+  }
+  .contact-button {
+    background-color: #1d1919; /* fondo blanco */
+    border: none; /* no border */
+    padding: 10px; /* padding para dar espacio alrededor del icono */
+    margin: 10px; /* margen para separar los botones */
+    text-decoration: none;
+    cursor: pointer; /* cursor en forma de mano para indicar que es un botón */
+    transition: background-color 0.3s; /* transición para cambiar el fondo al pasar el mouse */
+    display: flex; /* Agregamos display: flex para que el texto y la imagen se alineen horizontalmente */
+    align-items: center; /* Centramos verticalmente el texto y la imagen */
+    flex-basis: calc(33.33% - 20px);
+  }
+
+  .contact-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (min-width: 768px) {
+    .contact-button {
+      flex-basis: calc(33.33% - 20px);
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .contact-button {
+      flex-basis: calc(25% - 20px);
+    }
+  }
+  .contact-button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px; /* Agregamos un margen a la izquierda para separar el texto de la imagen */
+  }
+  .contact-button:hover {
+    background-color: #333; /* fondo negro al pasar el mouse */
+  }
+  
+  .contact-button img {
+    width: 24px; /* ancho del icono */
+    height: 24px; /* alto del icono */
+    filter: grayscale(100%); /* convierte el icono a blanco y negro */
+    transition: filter 0.3s; /* transición para cambiar el filtro al pasar el mouse */
+  }
+  
+  .contact-button:hover img {
+    filter: none; /* quita el filtro de blanco y negro al pasar el mouse */
+  }
+  .skill-button {
+    background-color: #1d1919; /* fondo blanco */
+    border: none; /* no border */
+    padding: 50px; /* padding para dar espacio alrededor del icono */
+    margin: 10px; /* margen para separar los botones */
+    cursor: pointer; /* cursor en forma de mano para indicar que es un botón */
+    transition: background-color 0.3s; /* transición para cambiar el fondo al pasar el mouse */
+  }
+  
+  .skill-button:hover {
+    background-color: #333; /* fondo negro al pasar el mouse */
+  }
+  
+  .skill-button img {
+    width: 80px; /* ancho del icono */
+    height: 80px; /* alto del icono */
+    filter: grayscale(100%); /* convierte el icono a blanco y negro */
+    transition: filter 0.3s; /* transición para cambiar el filtro al pasar el mouse */
+  }
+  
+  .skill-button:hover img {
+    filter: none; /* quita el filtro de blanco y negro al pasar el mouse */
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1d1919;
+    border-bottom: 1px solid #1d1919;
+    position: relative;
+  }
+  
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #197375;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }
+  
+  /* Media queries para ajustar el tamaño del menú según la pantalla */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+    nav a {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    nav a {
+      margin: 0 0.5rem;
+    }
+  }
+  .menu-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .menu-list a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu-list a:hover {
+    color: #666;
+  }
+  
+  /* Media queries para mostrar el menú desplegable cuando el espacio es pequeño */
+  @media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+    }
+    .menu-button {
+      display: block;
+    }
+    .menu-list {
+      display: none;
+    }
+    .menu-button:hover + .menu-list {
+      display: block;
+    }
+  }
+  #desktop-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1d1919;
+    border-bottom: 1px solid #1d1919;
+  }
+  
+  #desktop-nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #197375;
+    transition: color 0.2s ease;
+  }
+  
+  #desktop-nav a:hover {
+    color: #666;
+  }
+  
+  #mobile-nav {
+    display: none;
+  }
+  
+  #mobile-nav .menu-button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  #mobile-nav .menu-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #mobile-nav .menu-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  #mobile-nav .menu-list a {
+    text-decoration: none;
+    color: #197375;
+  }
+  
+  #mobile-nav .menu-list a:hover {
+    color: #666;
+  }
+  
+  /* Media queries para mostrar el menú desplegable cuando el espacio es pequeño */
+  @media (max-width: 770px) {
+    #desktop-nav {
+      display: none;
+    }
+    #mobile-nav {
+      display: block;
+    }
+    #mobile-nav .menu-button:hover + .menu-list {
+      display: block;
+    }
   }

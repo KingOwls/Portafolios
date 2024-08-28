@@ -9,21 +9,54 @@
     <link rel="icon" type="image/png" href="assets/icons/IconoPrincipal.png">
 </head>
 
-<body>
+  <!-- Enlaces a cada sección -->
+  <nav id="desktop-nav">
+    <a href="#perfil">Perfil</a>
+    <a href="#about-me">About Me</a>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#MVV">Misión, Visión y Valores</a>
+    <a href="#certificaciones">Certificaciones</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  
+  <nav id="mobile-nav">
+    <button class="menu-button">Menú</button>
+    <ul class="menu-list">
+      <li><a href="#perfil">Perfil</a></li>
+      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#objetivos">Objetivos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#MVV">Misión, Visión y Valores</a></li>
+      <li><a href="#certificaciones">Certificaciones</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
 <!-- Sección 1: Presentación de Perfil -->
 <section id="perfil">
-    <h2>Presentación de Perfil</h2>
+  <div class="perfil-header"> 
+    <p></p>
+    <div class="perfil-info">
+      <p>I'm Jorge Osorio</p>    
+    </div>
     <div class="foto-perfil">
       <img src="/assets/fonts/FotoPerfil.jpeg" alt="Foto de perfil">
     </div>
-    <p>Mucho gusto, Jorge Osorio.</p>  
-    <p>Desarrollador de Videojuegos, estudiante de Ingeniería de Sistemas e Informática, Desarrollador Junior.</p>    
-        
-    <p>Graduado de un seminario, estudiante de la UPB seccional Bucaramanga, interesado en el desarrollo de videojuegos desde joven. He querido plasmar mis ideas más allá de simplemente hacer código, ya que considero los videojuegos como una nueva forma de arte dentro de las disciplinas.</p>    
-        
-    <p>Soy una persona creativa, alguien que piensa fuera de las normativas o leyes, escritor de medio tiempo y también lo que algunos consideran un filósofo, interesado en entender las conductas humanas.</p>
-  </section>
+  </div>
+</section>
   
+<section>
+  <div id="about-me">
+    <p>Desarrollador de Videojuegos, estudiante de Ingeniería de Sistemas e Informática, Desarrollador Junior.</p>
+    <p>Graduado de un seminario, estudiante de la UPB seccional Bucaramanga, interesado en el desarrollo de videojuegos desde joven. He querido plasmar mis ideas más allá de simplemente hacer código, ya que considero los videojuegos como una nueva forma de arte dentro de las disciplinas.</p>
+    <p>Soy una persona creativa, alguien que piensa fuera de las normativas o leyes, escritor de medio tiempo y también lo que algunos consideran un filósofo, interesado en entender las conductas humanas.</p>
+  </div>
+</section>
   <!-- Sección 2: Objetivos profesionales -->
   <section id="objetivos">
     <h2>Objetivos a Corto Plazo</h2>
@@ -32,7 +65,30 @@
         <p>Deseo hacerme de un nombre o un título dentro de la industria, seguir avanzando y creando más conceptos e ideas que puedan aportar a la industria, tanto mecánicamente como en fundamento, centrándome en temas que usualmente no son tratados.</p>
         <p>De allí, quiero generar respeto por mis ideales y ampliar la visión de las personas, aunque sea de forma mínima. Mi objetivo es provocar preguntas en quienes jueguen mis creaciones, intentando sembrar una pizca de duda en el interior de todos.</p>
   </section>
-  
+    <!-- Sección: Skills -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skill-buttons">
+      <button class="skill-button">
+        <img src="/assets/icons/CPP.png" alt="CPP">
+      </button>
+      <button class="skill-button">
+        <img src="/assets/icons/Git.png" alt="Git">
+      </button>
+      <button class="skill-button">
+        <img src="/assets/icons/HTML5.png" alt="HTML5">
+      </button>
+      <button class="skill-button">
+        <img src="/assets/icons/Java.png" alt="Java">
+      </button>
+      <button class="skill-button">
+        <img src="/assets/icons/Mysql.png" alt="Mysql">
+      </button>
+      <button class="skill-button">
+        <img src="/assets/icons/SprintBoot.png" alt="SprintBoot">
+      </button>
+    </div>
+  </section>
   <!-- Sección 3: Misión, Visión y valores -->
   <section id="MVV">
     <h2>Misión</h2>
@@ -62,13 +118,12 @@
   <!-- Sección 6: Proyectos -->
   <section id="proyectos">
     <h2>Proyectos</h2>
-      <h3>Lenguajes</h3>
       <h3>Proyectos Efectuados</h3>
           <p><strong>Descripción:</strong></p>
           <p>Estos son los proyectos que he desarrollado y completado, disponibles en GitHub para su revisión.</p>
             <ul>
             <li><a href="https://github.com/KingOwls/airtport">Proyecto Airtport</a></li>
-            <li><a href="https://github.com/KingOwls/BD_School">BD School</a></li>
+            <li><a href="https://github.com/KingOwls/Proyecto_HTML">Proyecto HTML</a></li>
             <li><a href="https://github.com/David-Albarracin/PROYECTO-JAVASCRIPT">Proyecto JavaScript</a></li>
             <li><a href="https://github.com/KingOwls/FuncionamientoDeMemoria2022">Funcionamiento de Memoria 2022</a></li>
             </ul>
@@ -83,13 +138,31 @@
   <!-- Sección 7: Datos de contacto -->
   <section id="contacto">
     <h2>Datos de contacto</h2>
-    <p>
-        Correo Personal: <a href="mailto:kingshadowowls@gmail.com">kingshadowowls@gmail.com</a><br>
-        Correo Institucional: <a href="mailto:jorge.osorio.2022@upb.edu.co">jorge.osorio.2022@upb.edu.co</a><br>
-        Número de Teléfono: <a href="tel:+573162284286">+57 316 2284286</a><br>
-        WhatsApp: <a href="https://wa.me/+573162284286?text=Hola%20Jorge%2C%20me%20gustar%C3%ADa%20hablar%20contigo">+57 3162284286</a><br>
-        LinkedIn: <a href="https://www.linkedin.com/in/jorge-luis-osorio-808823318" target="_blank">linkedin.com/in/jorge-luis-osorio-808823318</a><br>
-        GitHub: <a href="https://github.com/KingOwls" target="_blank">github.com/KingOwls</a>
-      </p>
+    <div class="contact-buttons">
+      <button class="contact-button">
+        <img src="/assets/icons/Correo.png" alt="Correo">
+        <a href="mailto:kingshadowowls@gmail.com">kingshadowowls@gmail.com</a>
+      </button>
+      <button class="contact-button">
+        <img src="/assets/icons/LinkedIn.png" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/jorge-luis-osorio-808823318" target="_blank">linkedin.com</a>
+      </button>
+      <button class="contact-button">
+        <img src="/assets/icons/Telefono.png" alt="Telefono">
+        <a href="tel:+573162284286">+57 316 2284286</a>
+      </button>
+      <button class="contact-button">
+        <img src="/assets/icons/Whatsapp.png" alt="Whatsapp">
+        <a href="https://wa.me/+573162284286?text=Hola%20Jorge%2C%20me%20gustar%C3%ADa%20hablar%20contigo">+57 3162284286</a>
+      </button>
+      <button class="contact-button">
+        <img src="/assets/icons/Correo.png" alt="Correo">
+        <a href="mailto:jorge.osorio.2022@upb.edu.co">jorge.osorio.2022@upb.edu.co</a>
+      </button>
+      <button class="contact-button">
+        <img src="/assets/icons/GitHub.png" alt="Correo">
+        <a href="https://github.com/KingOwls" target="_blank">github.com</a>
+      </button>
+    </div>
   </section>
 </html>
