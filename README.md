@@ -7,6 +7,7 @@ En un principio, se pensó utilizar React para avanzar y lograr mejores resultad
 ### Diseño
 
 #### Presentación de Perfil
+
 Mucho gusto, Jorge Osorio.  
 Desarrollador de Videojuegos, estudiante de Ingeniería de Sistemas e Informática, Desarrollador Junior.
 
@@ -17,14 +18,17 @@ Soy una persona creativa, alguien que piensa fuera de las normativas o leyes, es
 ### Objetivos Profesionales
 
 #### Objetivos a Corto Plazo
+
 Uno de mis objetivos a corto plazo es buscar una compañía centrada en el desarrollo de videojuegos y vender los inicios de mis ideas, entre ellas *Symphony of Justice*, y a partir de allí, trabajar completamente enfocado en ello.
 
 #### Objetivos a Mediano Plazo
+
 Deseo hacerme de un nombre o un título dentro de la industria, seguir avanzando y creando más conceptos e ideas que puedan aportar a la industria, tanto mecánicamente como en fundamento, centrándome en temas que usualmente no son tratados.
 
 De allí, quiero generar respeto por mis ideales y ampliar la visión de las personas, aunque sea de forma mínima. Mi objetivo es provocar preguntas en quienes jueguen mis creaciones, intentando sembrar una pizca de duda en el interior de todos.
 
 #### Objetivos a Largo Plazo
+
 Mi idea, después de tener un gran renombre y convertirme en una persona respetada, es crear una fundación y una compañía. La fundación estará centrada en ayudar a chicos con problemas psicológicos, especialmente aquellos que sufren de dudas sobre su futuro, depresión, ansiedad y otros temas que, en muchas ocasiones, no reciben la atención que merecen. También quiero ayudar a jóvenes que no pueden estudiar por problemas económicos.
 
 La compañía que deseo crear estará enfocada en el desarrollo de videojuegos, con el objetivo de apoyar a estudios indie o incluso a personas que desean dar vida a sus proyectos, pero que, por falta de orientación, dificultades económicas y otras razones, no tienen la oportunidad de crear y dar luz a sus invenciones.
@@ -32,12 +36,15 @@ La compañía que deseo crear estará enfocada en el desarrollo de videojuegos, 
 ### Misión, Visión y Valores
 
 #### Misión
+
 Ser un desarrollador de videojuegos enfocado en innovar en la industria, destacando y potenciando el talento único de mi nación. Mi objetivo es cerrar la brecha que limita la publicación de ideas originales, facilitando la entrada de nuevas propuestas en el mercado global.
 
 #### Visión
+
 Para 2030, seré un referente en la industria de los videojuegos, no solo como desarrollador, sino como una empresa clave en la distribución de ideas, conceptos, y prototipos innovadores. Mi propósito es ofrecer a las compañías la oportunidad de adquirir y desarrollar estas propuestas únicas.
 
 #### Valores
+
 - Innovación
 - Creatividad
 - Compromiso
@@ -55,6 +62,7 @@ Los servicios que proveo están enfocados en documentación, conceptualización,
 HTML, CSS, Java, Python, Mysql, Git, C++, SprintBoot.
 
 ### Proyectos Efectuados
+
 **Descripción:**  
 Estos son los proyectos que he desarrollado y completado, disponibles en GitHub para su revisión.
 
@@ -67,6 +75,7 @@ Estos son los proyectos que he desarrollado y completado, disponibles en GitHub 
 Estos proyectos muestran mi capacidad para llevar ideas desde la conceptualización hasta su implementación práctica, destacando mi habilidad técnica y experiencia en programación.
 
 ### Proyectos de Conceptualización de Videojuegos
+
 **Descripción:**  
 Estos son conceptos de videojuegos en los que he trabajado, reflejando mi creatividad y visión para el diseño de juegos.
 
@@ -88,13 +97,15 @@ Estos son conceptos de videojuegos en los que he trabajado, reflejando mi creati
 # Descripción y Justificación del Proyecto de Portafolio
 
 ## Presentación de Perfil
+
 **Descripción:**  
 La presentación del perfil tendrá un toque sombrío y gamer, con un diseño en Pixel Art que presente diferentes conceptos, al igual que un perfil más personal.
 
 **Justificación:**  
-La estética sombría en Pixel Art refleja tanto mi pasión por los videojuegos como mi estilo personal. Referencias como [David Shaver](https://www.davidshaver.net/index.html) y [Hugo](https://hugo.fyi/#) inspiran este enfoque, pero con la diferencia de no incluir videos ni presentaciones. Se buscará una manera de presentar estos conceptos, posiblemente a través de enlaces o alternativas visuales similares.
+La estética sombría en Pixel Art refleja tanto mi pasión por los videojuegos como mi estilo personal. Referencias como [David Shaver](https://www.davidshaver.net/index.html), [Hugo](https://hugo.fyi/#), [Shawn Grabenstetter](https://www.shawngg.com/wriportfolio), [Surya Narendran](https://www.games.suryanaren.com) inspiran este enfoque, pero con la diferencia de no incluir videos ni presentaciones. Se buscará una manera de presentar estos conceptos, posiblemente a través de enlaces o alternativas visuales similares.
 
 ## Objetivos Profesionales
+
 **Descripción:**  
 Los objetivos profesionales se presentarán con un enfoque en el ámbito gamer, incluyendo aspectos como ingeniería, conceptualización y planteamiento de requerimientos. Se utilizarán componentes (como React) o hipervínculos para conectar los proyectos de manera más profunda. También se incluirá un Git general que enlace todos los proyectos, si es posible.
 
@@ -155,88 +166,4 @@ El portafolio tendrá una estética oscura pero no aterradora, enfocada en ideas
 **Justificación:**  
 Este enfoque visual se alinea con la temática de mis proyectos y mi estilo personal, creando una experiencia inmersiva y memorable para quienes visiten mi portafolio.
 
-```<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-.title {
-  font-size: 3em;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.crow {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-image: url("crow.jpg"); /* Replace with your crow image */
-  background-size: contain;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.crow.show {
-  opacity: 1;
-}
-
-.crow.flying {
-  animation: fly 2s linear infinite;
-}
-
-@keyframes fly {
-  0% {
-    transform: translateX(0) translateY(0);
-  }
-  50% {
-    transform: translateX(20px) translateY(-10px);
-  }
-  100% {
-    transform: translateX(0) translateY(0);
-  }
-}
-</style>
-</head>
-<body>
-<div class="container">
-  <h1 class="title" data-target="title1">Title 1</h1>
-  <h1 class="title" data-target="title2">Title 2</h1>
-  <h1 class="title" data-target="title3">Title 3</h1>
-  <div class="crow" id="crow"></div>
-</div>
-<script>
-const titles = document.querySelectorAll('.title');
-const crow = document.getElementById('crow');
-
-titles.forEach(title => {
-  title.addEventListener('click', () => {
-    const target = title.dataset.target;
-    crow.style.left = `${title.offsetLeft + (title.offsetWidth / 2) - (crow.offsetWidth / 2)}px`;
-    crow.style.top = `${title.offsetTop - crow.offsetHeight}px`;
-    crow.classList.add('show', 'flying');
-    setTimeout(() => {
-      crow.classList.remove('flying');
-      setTimeout(() => {
-        crow.classList.remove('show');
-      }, 3000);
-    }, 5000);
-  });
-});
-</script>
-</body>
-</html>
-```
+[Portafolio Final](https://kingowls.github.io/Portafolios/)

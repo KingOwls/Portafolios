@@ -4,7 +4,6 @@ body {
   background-color: #1d1919; /* cambia el fondo a un color oscuro */
   font-family: 'Open Sans', sans-serif; /* cambia la fuente a Open Sans */
   color: #fff; /* cambia el color del texto a blanco */
-  
 }
 .imagen-grande {
     width: 500px;   
@@ -324,7 +323,7 @@ section {
   }
   
   #mobile-nav {
-    display: none;
+    position: relative;
   }
   
   #mobile-nav .menu-button {
@@ -355,21 +354,95 @@ section {
   #mobile-nav .menu-list a {
     text-decoration: none;
     color: #197375;
+    display: block;
   }
   
-  #mobile-nav .menu-list a:hover {
+  #mobile-nav .menu-list a:hover,
+  #mobile-nav .menu-list .menu-link.focus {
     color: #666;
   }
   
-  /* Media queries para mostrar el menú desplegable cuando el espacio es pequeño */
-  @media (max-width: 770px) {
-    #desktop-nav {
-      display: none;
+/* Oculta el menú en tamaño de escritorio */
+@media (min-width: 768px) {
+  #mobile-nav {
+    display: none;
+  }
+  #desktop-nav {
+    display: block;
+  }
+}
+
+/* Muestra el menú en tamaño móvil */
+@media (max-width: 767px) {
+  #mobile-nav {
+    display: block;
+  }
+  #desktop-nav {
+    display: none;
+  }
+}
+
+/* Oculta el texto de navegación en formato móvil */
+@media (max-width: 767px) {
+  #desktop-nav a {
+    display: none;
+  }
+}
+
+
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #2f2828;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    color: #d8d8d8;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    font-size: 1.1em;
+    color: #4d5dac;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart {
+    background-color: #2a2872;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .certificacion-image {
+    max-width: 30%; /* La imagen no debe ser más ancha que su contenedor */
+    height: auto; /* La altura se ajusta automáticamente */
+    object-fit: contain; /* La imagen se ajusta y se centra en su contenedor */
+    margin: 20px; /* Agrega un margen para separar la imagen del texto */
+  }
+
+  @media (max-width: 768px) {
+    .certificacion-image {
+      width: 30%; /* La imagen ocupa la mitad del ancho en pantallas pequeñas */
     }
-    #mobile-nav {
-      display: block;
-    }
-    #mobile-nav .menu-button:hover + .menu-list {
-      display: block;
+  }
+  
+  @media (max-width: 480px) {
+    .certificacion-image {
+      width: 30%; /* La imagen ocupa un tercio del ancho en pantallas muy pequeñas */
     }
   }
