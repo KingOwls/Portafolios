@@ -166,4 +166,4 @@ El portafolio tendrá una estética oscura pero no aterradora, enfocada en ideas
 **Justificación:**  
 Este enfoque visual se alinea con la temática de mis proyectos y mi estilo personal, creando una experiencia inmersiva y memorable para quienes visiten mi portafolio.
 
-[Portafolio Final](https://kingowls.github.io/Portafolios/)
+[PortafolioFinal](https://kingowls.github.io/Portafolios/)
